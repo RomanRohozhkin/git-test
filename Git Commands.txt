@@ -1,0 +1,46 @@
+git init - to add fresh-project
+git config --global core.editor "atom -w" - new standard editor
+git commit - to write a commit message in standard editor
+git init - to add project to git
+
+before push need to pull: origin is a remote repo / master is a local
+git pull origin master - for update
+
+git add & commit in line:
+git commit -am "commmit msg"
+
+git ls-files - show all files looked up by git
+
+git reset HEAD <filename>  - reset what aad .
+
+git checkout -- filename.txt  - reset to the last commit
+
+Rename:
+git mv oldname newname
+to reset repeat this command with old names
+
+Move file:
+git mv filename folder/
+
+Delete:
+git rm - remove tracking files
+Undelete:
+git reset HEAD <filename.txt>
+git checkout -- filename.txt
+
+Git History:
+git help log
+git log
+git log --abbrev -commit
+git log --oneline --graph --decorate
+git log --since="3 days ago"
+git log -- filename.txt
+
+Git Alias:
+git config --global alias.aliasname "git log --oneline --graph --decorate"
+git aliasname
+
+Git Ignore:
+atom .gitignore
+each line for ignore instance:
+*.log
