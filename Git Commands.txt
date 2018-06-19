@@ -44,3 +44,16 @@ Git Ignore:
 atom .gitignore
 each line for ignore instance:
 *.log
+
+Git Branches:
+git branch -a - list of all branches
+git branch newbranch - create new branch
+git branch checkout newbranch - move to branch
+git branch -m oldname newname - rename branch
+git branch -d name - delete branch
+git checkout -b newbranch
+
+Git Merge:
+git merge nameSourseBranch // git merge feature
+git merge branch --no-ff //for no fast forward merge
+git merge nemeSourseBranch -m "Merge with comment"
