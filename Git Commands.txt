@@ -57,3 +57,23 @@ Git Merge:
 git merge nameSourseBranch // git merge feature
 git merge branch --no-ff //for no fast forward merge
 git merge nemeSourseBranch -m "Merge with comment"
+
+Git Rebase:
+
+git rebase sourcebranch - do in branch ion what you want to rebase
+git rebase --abord - decline
+git rebase --continue - continue rebase after merge conflict
+
+Git Stash: (прятать)
+git stash - спрятать add . changes
+git stash apply - вернуть спрятанные changes
+git stash drop - delete нычку
+git stash -u - include untracked files too
+git stash pop - do apply & drop in the same time
+
+Many stashes:
+git stash save
+git stash apply stash@{1}
+git stash show stash@{0}
+git stash clear
+git stash branches newbranch
