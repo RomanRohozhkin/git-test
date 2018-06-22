@@ -85,4 +85,4 @@ git tag --delete myTag
 git tag -a v-1.0 - create annotated tag
 git show v-1.0 - show commit added with tag
 git push origin master --tags - to push all tags to github
-git push origin :myTag - to delete tag from remote repo
+git push origin :myTag - to delete tag from remote rep
