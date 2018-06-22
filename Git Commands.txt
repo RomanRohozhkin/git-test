@@ -11,7 +11,7 @@ git commit -am "commmit msg"
 
 git ls-files - show all files looked up by git
 
-git reset HEAD <filename>  - reset what aad .
+git reset HEAD <filename>  - reset what add .
 
 git checkout -- filename.txt  - reset to the last commit
 
