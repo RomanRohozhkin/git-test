@@ -1,2 +1,4 @@
 New File
 Git pull
+Pull from branch
+Pull to another branch
